@@ -2,8 +2,8 @@ const express = require('express');
 const TronWeb = require('tronweb');
 const bodyParser = require('body-parser')
 const HttpProvider = TronWeb.providers.HttpProvider;
-const fullNode = "https://api.trongrid.io"
-const testfullNode = "https://api.trongrid.io"
+const fullNode = "https://api.shasta.trongrid.io"
+const testfullNode = "https://api.shasta.trongrid.io"
 
 const app = express();
 app.use(bodyParser.json())
